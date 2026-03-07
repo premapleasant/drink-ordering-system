@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { Send, Mic, MicOff, Coffee } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://drink-ordering-system-u8uk.onrender.com';
 
 const ChatbotOrdering = () => {
   const [messages, setMessages] = useState([

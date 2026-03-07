@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use('/api', apiRoutes);
+app.use(apiRoutes);
 
 // Database check (optional)
 const pool = require('./db');
