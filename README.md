@@ -104,38 +104,6 @@ database/
 
 ---
 
-## Installation
-
-### Clone the Repository
-
-git clone https://github.com/your-username/drink-ordering-system.git
-
-### Install Dependencies
-
-Frontend
-
-cd frontend
-npm install
-
-Backend
-
-cd backend
-npm install
-
----
-
-## Run the Project
-
-Backend
-
-npm start
-
-Frontend
-
-npm run dev
-
----
-
 ## Future Improvements
 
 * AI intent recognition for natural language ordering
