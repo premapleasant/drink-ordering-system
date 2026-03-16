@@ -1,18 +1,10 @@
-# AI Chatbot Drink Ordering System
+# Drink Ordering System
 
-**AI-powered drink ordering platform with chatbot and voice support. Includes an admin dashboard for product management and real-time stock updates.**
+**Live Demo:** https://drink-ordering-system.netlify.app
 
-Built using React, Node.js, Express, and MySQL with cloud deployment.
+An AI-powered drink ordering platform that allows customers to order beverages using a chat-style interface with text or voice input. The system includes an admin dashboard for managing products and stock while automatically updating inventory after each order.
 
-Tech Stack: React • Node.js • Express.js • MySQL • Aiven • Netlify • Render
-
----
-
-## Overview
-
-This project is a full-stack drink ordering system where customers can place orders through a chat-style interface using either text or voice input.
-
-The system includes an admin panel to manage drinks and stock. Inventory automatically updates whenever a customer places an order, ensuring accurate stock tracking.
+This project demonstrates a full-stack application with real-time inventory management and a conversational ordering experience.
 
 ---
 
@@ -24,7 +16,7 @@ The system includes an admin panel to manage drinks and stock. Inventory automat
 
 * Add new drinks dynamically
 * Set drink prices
-* View existing products
+* View available products
 * Edit or delete products
 
 Fields:
@@ -45,20 +37,20 @@ Fields:
 
 ### Customer Chatbot Ordering
 
-Customers can order drinks through an interactive chatbot interface.
+Customers can place drink orders using a chatbot-style interface.
 
 Features:
 
-* Chat-style UI
+* Chat-style user interface
 * Text input ordering
 * Voice input ordering
 * Display available drinks with prices
 * Select drinks via text or voice
 * Check stock availability before confirming order
-* Low stock warning message
-* Automatic stock deduction after successful order
+* Show low-stock warning message
+* Automatically deduct stock after successful order
 * Final confirmation message
-* Voice output for order confirmation
+* Voice output for confirmation
 
 ---
 
@@ -114,9 +106,9 @@ database/
 
 ## Installation
 
-### Clone Repository
+### Clone the Repository
 
-git clone https://github.com/your-username/project-name.git
+git clone https://github.com/your-username/drink-ordering-system.git
 
 ### Install Dependencies
 
